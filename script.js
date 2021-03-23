@@ -57,7 +57,7 @@ nbrOutput.innerHTML = nbr;
 wrap.appendChild(nbrOutput);
 
 function clicked(){
-nbr = nbr - 1; 
+nbr = nbr + 1; 
 nbrOutput.innerHTML = nbr;
 wrap.appendChild(nbrOutput);
 }
